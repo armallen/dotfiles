@@ -1,0 +1,48 @@
+[user]
+	name = Arnaud Mallen
+	email = arnaud.mallen@xxx.com
+
+[core]
+	editor = vi
+  
+[color]
+	ui = auto
+
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	mf = merge --no-ff
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+
+[credential]
+	helper = store
+
+[push]
+	default = simple
+  
+[diff]
+	guitool = kdiff3
+  
+[status]
+	submoduleSummary = true
