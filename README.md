@@ -238,3 +238,15 @@ function gitrmtag
 	fi
 }
 ```
+
+
+## .bashrc
+
+```
+alias ll='ls -lrt'
+
+# autocomplete env variables
+shopt -s direxpand
+```
+
+
